@@ -1,5 +1,5 @@
-//function myFunction() 
-//{
+function myFunction() 
+{
 	var num = Math.ceil(Math.random()*6);
 	var diceImage = "dice"+num+".png";
 
@@ -27,4 +27,4 @@
 		document.querySelector('h1').innerHTML = "Draw!";
 	}
 
-//}
+}
